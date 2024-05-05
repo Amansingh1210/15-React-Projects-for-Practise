@@ -1,9 +1,17 @@
 import React from 'react'
-import tour from './Tour'
+import Tour from './Tour'
 
-function Tours() {
+function Tours({tours,removeTour}) {
   return (
-    <h2>Tours components</h2>
+    <section>
+      <div className='title'>
+        <h2>Ours tours</h2>
+        <div className='underline'></div>
+      </div>
+      {tours.map((tour)=>{
+        return<Tour key={tour.id} {...tour} removeTour={removeTour}/>
+      })}
+    </section>
   )
 }
 
