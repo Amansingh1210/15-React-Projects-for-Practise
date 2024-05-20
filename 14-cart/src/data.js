@@ -1,23 +1,25 @@
-export default [
+const data = [
     {
         id: 1,
         title: 'Samsung Galaxy S7',
         price: 599.99,
-        img: 'https://dl.airtable.com/.attachments/91ee456448cef47deec553a2ea3fa8ad/b08bec68/phone-2_ohtt5s.png',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0A2H3iijPPsYODaTp7O99XLYLOXKT5B8dqyxfzHyadQ&s',
         amount: 1,
     },
     {
         id: 2,
         title: 'google pixel ',
         price: 499.99,
-        img: 'https://dl.airtable.com/.attachments/91c88ae8c1580e2b762ecb3f73ed1eed/a633139a/phone-1_gvesln.png',
+        img: 'https://lh3.googleusercontent.com/wzsqBeez2GZQbIDlRUtfSkx8xSNXUpIyNMNyab9QDam30c6_ZWskUDSSlC6Ddtqd7EyKH5bEysvZ_1hbLYmrWQqAwLu3peoO0Z8',
         amount: 1,
     },
     {
         id: 3,
         title: 'Xiaomi Redmi Note 2',
         price: 699.99,
-        img: 'https://dl.airtable.com/.attachments/bae9208dc34f35128749ecda5b999e84/337c285d/phone-3_h2s6fo.png',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_JV4-wNaIb-JezxF2ZLrZiXYVi8MEAWezAinChjWwg&s',
         amount: 1,
     },
 ];
+
+export default data
